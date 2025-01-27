@@ -24,6 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Числа равны");
     }
 
+    //Задача 4: Угадай число
+    const number = 777;
+    let ygadai = prompt('Угадай число', '');
+    if (number == ygadai) {
+        alert( 'Вы угадали!' );
+    }
+    else {
+        alert( 'Попробуйте ещё раз!' );
+    }
+
     // задача 3
 
     let login = prompt("Введите логин");
