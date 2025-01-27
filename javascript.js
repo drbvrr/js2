@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Числа равны");
     }
 
-    //Задача 4: Угадай число
+    //задача 3
     const number = 777;
     let ygadai = prompt('Угадай число', '');
     if (number == ygadai) {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         alert( 'Попробуйте ещё раз!' );
     }
 
-    // задача 3
+    // задача 4
 
     let login = prompt("Введите логин");
     let password = prompt("Введите пароль");
